@@ -5,7 +5,7 @@ statistics: true
 # HJK的代码空间！
 
     
-<!-- ???+ success inline "正在努力更新！"
+???+ success inline "正在努力更新！"
     - [**C++**](cpp/cpp_restart/index.md) - 重新总结一下 C++ 学习，尝试实现「自举」
     - [**DIY a git**](git/index.md) - 通过造轮子的方式学习 git！
 
@@ -21,4 +21,4 @@ statistics: true
 
 ???+ Warning "施工中！" 
     <center>[![GitHub stars](https://img.shields.io/github/stars/xuan-insr/xuan-insr.github.io.svg?style=social&label=Stars)](https://github.com/xuan-insr/xuan-insr.github.io)</center>
-    <center>正在从 [语雀](https://www.yuque.com/xianyuxuan/coding) 逐步迁移！内容还非常不完整——</center> -->
+    <center>正在从 [语雀](https://www.yuque.com/xianyuxuan/coding) 逐步迁移！内容还非常不完整——</center>
