@@ -1,8 +1,12 @@
 ---
+hide:
+    - date
+home: true
 statistics: true
 ---
 
-# HJK的代码空间！
+# 这里是HJK的个人笔记本哦！
+
 
     
 ???+ success inline "正在努力更新！"

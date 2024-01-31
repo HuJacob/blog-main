@@ -1,24 +1,27 @@
 nav:
-  - 🏡 主页: # 主页/
+  - 主页: # 主页/
     - index.md
-    - ❤️ 关于我: 主页/about.md
-    - 📆 最近更新: recent.md
+    - 关于我: 主页/about.md
+    - 最近更新: ./changelog.md
   
-site_name: HJK的代码空间
+site_name: HJK的空间
 site_url: https://xuan-insr.github.io/
-# repo_name: 
-# repo_url: 
+repo_name: hujacob/blog
+repo_url: https://github.com/HuJacob/blog-main/
 
 theme:
   name: material
-  logo: logo.ico
-  favicon: logo.ico
+  icon: 
+    logo: material/notebook-outline
+  favicon: projectn.jpg
   features:
     - navigation.tabs # 一级导航在横着的导航栏
     - content.code.annotate # 可以在代码块中增添点击展示的注释，参见 https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#adding-annotations
     - navigation.indexes # 将 index 页面直接附到小节名上
     - navigation.top # 回到顶部按钮
     - toc.follow # toc 跟随
+    - content.code.annotate
+    - navigation.tracking
   language: 'zh'
   palette:
     # Palette toggle for light mode
@@ -126,3 +129,6 @@ plugins:
         - "$"
         - ">"
         - "%"
+  - changelog:
+      file: docs/changelog.yml
+
