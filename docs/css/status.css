@@ -63,3 +63,15 @@ article a[href^="https://github.com/xuan-insr/xuan-insr.github.io"]::after {
     grid-auto-columns: 1fr;
     gap: 6px;
 }
+/* code颜色风格以及部分字体 */
+.md-typeset code:not(pre code) {
+    font-size: inherit;
+  }
+[data-md-color-scheme="default"] {
+    --md-code-bg-color: #fafafa;
+    --md-code-fg-color: var(--md-typeset-color);
+  }
+  [data-md-color-scheme="slate"] {
+    --md-code-bg-color: #1d1d1d;
+  }
+ 
