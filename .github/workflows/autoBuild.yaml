@@ -50,12 +50,7 @@ jobs:
       - name: Install dependencies
         run: |
           cd plugins/mkdocs-toc-plugin
-          python setup.py develop
-      - name: Build and deploy Mkdocs
-        run: |
-          cd plugins/mkdocs-toc-plugin
-          mkdocs gh-deploy --force
-
+          pip install -e .
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
