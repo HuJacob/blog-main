@@ -50,8 +50,8 @@ jobs:
       - name: Install dependencies
         run: |
           cd plugins/mkdocs-toolchain
-          pip install -r /github/workspace/requirements.txt
-
+          pip install -r /github/workflows/requirements.txt
+    
       - name: Build and deploy Mkdocs
         run: |
           cd plugins/mkdocs-toolchain
