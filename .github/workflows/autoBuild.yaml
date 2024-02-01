@@ -50,8 +50,8 @@ jobs:
       - name: Install dependencies
         run: |
           cd plugins/mkdocs-toolchain
-          pip install -r /github/workflows/requirements.txt
-    
+          pip install -r ../../../requirements.txt
+
       - name: Build and deploy Mkdocs
         run: |
           cd plugins/mkdocs-toolchain
@@ -64,5 +64,6 @@ jobs:
           publish_dir: ./publish
           publish_branch: gh-pages
           keep_files: true
+
 
 
