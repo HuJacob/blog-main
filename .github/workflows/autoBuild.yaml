@@ -35,12 +35,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout mkdocs-toolchain
+      - name: Checkout repository
         uses: actions/checkout@v2
         with:
-          repository: TonyCrane/mkdocs-toolchain
-          path: plugins/mkdocs-toolchain
           fetch-depth: 0  # Ensure full history is available
+          submodules: recursive  # Ensure submodules are checked out
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -49,12 +48,12 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd plugins/mkdocs-toc-plugin
-          pip install -r requirements.txt
+          cd plugins/mkdocs-toc-plugin/mkdocs-toc-plugin
+          pip install -r ../../requirements.txt
 
       - name: Build and deploy Mkdocs
         run: |
-          cd plugins/mkdocs-toc-plugin
+          cd plugins/mkdocs-toc-plugin/mkdocs-toc-plugin
           mkdocs gh-deploy --force
 
       - name: Deploy to gh-pages
@@ -65,5 +64,18 @@ jobs:
           publish_branch: gh-pages
           keep_files: true
 
+
+
+# project-root/
+# |-- .github/
+# |   |-- workflows/
+# |       |-- autoBuild.yml
+# |-- plugins/
+# |   |-- mkdocs-toc-plugin/
+# |       |-- mkdocs-toc-plugin/
+# |       |-- setup.py
+# |   |requirements.txt
+# |-- other_files/
+# |-- ...
 
 
