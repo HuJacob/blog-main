@@ -6,4 +6,4 @@ mkdocs-statistics-plugin
 termynal
 neoteroi-mkdocs
 mkdocs-changelog-plugin
-
+setuptools
