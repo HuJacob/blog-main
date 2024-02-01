@@ -49,12 +49,12 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd plugins/mkdocs-toolchain
+          cd plugins/mkdocs-toc-plugin
           pip install -r requirements.txt
 
       - name: Build and deploy Mkdocs
         run: |
-          cd plugins/mkdocs-toolchain
+          cd plugins/mkdocs-toc-plugin
           mkdocs gh-deploy --force
 
       - name: Deploy to gh-pages
