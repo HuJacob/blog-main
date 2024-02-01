@@ -1,9 +1,4 @@
-nav:
-  - 主页: # 主页/
-    - index.md
-    - 关于我: 主页/about.md
-    - 最近更新: ./changelog.md
-  
+
 site_name: HJK的空间
 site_url: https://xuan-insr.github.io/
 repo_name: hujacob/blog
@@ -132,3 +127,11 @@ plugins:
   - changelog:
       file: docs/changelog.yml
 
+nav:
+  - 主页:
+    - index.md
+    - 关于我: 主页/about.md
+    - 最近更新: ./changelog.md
+  - 杂项: 
+    - 杂项/博客建站记录.md
+    
