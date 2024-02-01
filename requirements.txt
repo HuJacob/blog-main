@@ -6,3 +6,5 @@ mkdocs-statistics-plugin
 termynal
 neoteroi-mkdocs
 mkdocs-changelog-plugin
+-e plugins/mkdocs-toc-plugin
+
