@@ -49,7 +49,7 @@ jobs:
       - name: Install dependencies
         run: |
           cd plugins/mkdocs-toc-plugin
-          pip install -r ./requirements.txt
+          pip install -r ../requirements.txt
 
       - name: Build and deploy Mkdocs
         run: |
