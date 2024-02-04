@@ -133,10 +133,17 @@ nav:
     - 最近更新: ./changelog.md
   - 算法:
     - 算法/index.md
-    - 算法/刷题记录/刷题记录.md
+    - 刷题记录:
+      - 算法/刷题记录/刷题记录.md
+    - 算法笔记:
+      - 二分: 算法/算法学习/binarysearch.md
+      - 字符串哈希: 算法/算法学习/hash_string.md
+      - dfs: 算法/算法学习/dfs.md
+      - 双指针算法: 算法/算法学习/twoPointer_ruler.md
   - 杂项: 
     - 杂项/index.md
-    - 杂项/博客建站记录/博客建站记录.md
+    - 博客搭建:
+      - 杂项/博客建站记录/博客建站记录.md
   
 
 
