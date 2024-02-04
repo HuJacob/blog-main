@@ -5,7 +5,7 @@ home: true
 statistics: true
 ---
 
-# 这里是HJK的个人笔记本哦！
+# 这里是HJK的个人笔记本！
 
 
 <!--     
