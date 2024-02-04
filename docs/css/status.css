@@ -3,10 +3,10 @@
     /* font-family: 'Lato', 'SimHei', 'STHeiti', 'SimHei', 'Serif'; */
     font-size: 85%;
 }
-.box-blue,  .badge-primary  { background-color: rgba(66, 139, 202, 0.5); color: #1d4ed8; }
-.box-green, .badge-success  { background-color: rgba(92, 184, 92, 0.5);  color: #15803d; }
-.box-red,   .badge-danger   { background-color: rgba(217, 83, 79, 0.5);  color: #b91c1c; }
-.box-yellow,.badge-warning  { background-color: rgba(240, 173, 78, 0.5); color: #a16207; }
+.box-blue,  .badge-primary  { background-color: rgba(66, 139, 202, 0.5); color: #ffffff; }
+.box-green, .badge-success  { background-color: rgba(92, 184, 92, 0.5);  color: #ffffff; }
+.box-red,   .badge-danger   { background-color: rgba(217, 83, 79, 0.5);  color: #ffffff; }
+.box-yellow,.badge-warning  { background-color: rgba(240, 173, 78, 0.5); color: #ffffff; }
 .box-gray   { background-color: #a0a0a0; }
 
 /* 修复 \overline 不显示的问题（非最优解）, src: https://github.com/mathjax/MathJax/issues/2701#issuecomment-1209302827 */
@@ -75,3 +75,37 @@ article a[href^="https://github.com/xuan-insr/xuan-insr.github.io"]::after {
     --md-code-bg-color: #1d1d1d;
   }
  
+  /*改变span字体颜色跟随主题*/
+  [data-md-color-scheme="default"] .box-blue,
+  [data-md-color-scheme="default"] .badge-primary,
+  [data-md-color-scheme="slate"] .box-blue,
+  [data-md-color-scheme="slate"] .badge-primary {
+      color: var(--md-code-fg-color);
+  }
+  
+  [data-md-color-scheme="default"] .box-green,
+  [data-md-color-scheme="default"] .badge-success,
+  [data-md-color-scheme="slate"] .box-green,
+  [data-md-color-scheme="slate"] .badge-success {
+      color: var(--md-code-fg-color);
+  }
+  
+  [data-md-color-scheme="default"] .box-red,
+  [data-md-color-scheme="default"] .badge-danger,
+  [data-md-color-scheme="slate"] .box-red,
+  [data-md-color-scheme="slate"] .badge-danger {
+      color: var(--md-code-fg-color);
+  }
+  
+  [data-md-color-scheme="default"] .box-yellow,
+  [data-md-color-scheme="default"] .badge-warning,
+  [data-md-color-scheme="slate"] .box-yellow,
+  [data-md-color-scheme="slate"] .badge-warning {
+      color: var(--md-code-fg-color);
+  }
+  
+  [data-md-color-scheme="default"] .box-gray,
+  [data-md-color-scheme="slate"] .box-gray {
+      color: var(--md-code-fg-color);
+  }
+  
