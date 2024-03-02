@@ -12,4 +12,4 @@
 + [咸鱼暄](https://xuan-insr.github.io/)
 + [鹤翔万里](https://note.tonycrane.cc/#oo-hi)
 
-欢迎访问！=> [HJK的笔记本](hellohjk.site)
+欢迎访问！=> [HJK的笔记本](https://hellohjk.site)
