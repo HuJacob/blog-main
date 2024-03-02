@@ -130,7 +130,7 @@ nav:
   - 主页:
     - index.md
     - 关于我: 主页/about.md
-    - 最近更新: ./changelog.md
+    # - 最近更新: ./changelog.md
   - 算法:
     - 算法/index.md
     - 刷题记录:
