@@ -131,6 +131,9 @@ nav:
     - index.md
     - 关于我: 主页/about.md
     # - 最近更新: ./changelog.md
+  - 项目开发:
+    - 项目开发/index.md
+    - MVC项目结构: 项目开发/MVC项目结构/基础模板学习.md
   - 算法:
     - 算法/index.md
     - 刷题记录:
