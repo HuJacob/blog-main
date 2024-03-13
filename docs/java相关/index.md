@@ -7,5 +7,5 @@
 
 {{ BEGIN_TOC }}
 - Java基础:
-    - Java反射: Java反射/Java反射
+    - Java数据结构HashCode: Java数据结构/HashCode/HashCode
 {{ END_TOC }}

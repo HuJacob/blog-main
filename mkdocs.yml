@@ -129,11 +129,13 @@ plugins:
 nav:
   - 主页:
     - index.md
-    - 关于我: 主页/about.md
     # - 最近更新: ./changelog.md
   - 项目开发:
     - 项目开发/index.md
     - MVC项目结构: 项目开发/MVC项目结构/基础模板学习.md
+  - Java相关:
+    - java相关/index.md
+    - HashCode: java相关/Java数据结构/HashCode/HashCode.md
   - 算法:
     - 算法/index.md
     - 刷题记录:
