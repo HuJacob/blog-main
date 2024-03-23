@@ -13,4 +13,4 @@ SpringBoot、SSM、MySQL、MyBatis-Plus、SpringCloudGateway、Nacos
 
 ## 项目架构图
 
-![image-20240315233339680](index.assets/image-20240315233339680.png)
+![image-20240315233339680](.assets/image-20240315233339680.png)
