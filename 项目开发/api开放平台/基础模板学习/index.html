@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../../projectn.jpg">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.14">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.15">
     
     
       
@@ -26,7 +26,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.10ba22f1.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e359304.min.css">
       
         
         <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
@@ -1572,7 +1572,7 @@
 <p>那么就进入到了<code>Service</code>实现类中，方法无非两种结果，如果能成功执行则返回结果，不能成功执行则报错。这里我们首先说成功执行的逻辑。</p>
 <p>若是成功执行，则返回需要的参数。<code>serviceImpl</code>将参数返回到<code>controller</code>中此时调用工具类<code>ResultUtils</code>中的方法返回<code>BaseResponse</code>对象，这个就是最终的返回对象。</p>
 <p>若是执行不成功，有两个地方抛出异常，一个是<code>controller</code>层，一个是<code>serviveImpl</code>，通过throw的方式抛出自定义实现的错误类<code>BusinessException</code>，<code>BusinessException</code>内部定义了一个code私有变量，接收一个<code>ErrorCode</code>枚举类，在<code>ErrorCode</code>中我们定义了code和message，message信息通过继承的父类构造方法<code>RuntimeException</code>抛出。</p>
-<p><img alt="image-20240307203408172" src="../%E5%9F%BA%E7%A1%80%E6%A8%A1%E6%9D%BF%E5%AD%A6%E4%B9%A0.assets/image-20240307203408172.png" /></p>
+<p><img alt="image-20240307203408172" src="../.assets/image-20240307203408172.png" /></p>
 <h2 id="请求类">请求类<a class="headerlink" href="#请求类" title="Permanent link">&para;</a></h2>
 <hr />
 <p>统一传入通用请求类</p>
