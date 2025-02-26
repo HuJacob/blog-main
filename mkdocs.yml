@@ -130,18 +130,11 @@ nav:
   - 主页:
     - index.md
     # - 最近更新: ./changelog.md
-  - 项目开发:
-    - 项目开发/index.md
-    - API开放平台: 
-      - 简介: 项目开发/api开放平台/index.md
-      - MVC框架学习: 项目开发/api开放平台/基础模板学习.md
   - Java相关:
     - java相关/index.md
     - HashCode: java相关/Java数据结构/HashCode/HashCode.md
   - 算法:
     - 算法/index.md
-    - 刷题记录:
-      - 算法/刷题记录/刷题记录.md
     - 算法笔记:
       - 二分: 算法/算法学习/binarysearch.md
       - 字符串哈希: 算法/算法学习/hash_string.md
