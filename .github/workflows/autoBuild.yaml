@@ -90,8 +90,8 @@ name: autoBuild
 on:
   push:
     branches:
-      - main    # 根据你的主分支名称修改（main 或 master）
       - master
+      - main    # 根据你的主分支名称修改（main 或 master）
 
 jobs:
   deploy:
@@ -140,7 +140,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # 使用内置 Token
+          personal_token: ${{ secrets.TOKEN }}  # 使用内置 Token
           publish_dir: ./site          # 指向构建目录
           publish_branch: gh-pages     # 目标分支
           force_orphan: true           # 强制清理旧文件
